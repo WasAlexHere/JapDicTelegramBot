@@ -3,7 +3,7 @@ import requests
 from bs4 import BeautifulSoup
 import re
 
-token = '961588413:AAE2FWmA_sSvxYqX1cPbjFXnVWbJQTw5LNQ'
+token = ''
 bot = telebot.TeleBot(token)
 
 #upd = bot.get_updates()
