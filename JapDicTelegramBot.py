@@ -2,7 +2,7 @@ import telebot
 import requests
 from bs4 import BeautifulSoup
 
-token = '961588413:AAE2FWmA_sSvxYqX1cPbjFXnVWbJQTw5LNQ'
+token = ''
 bot = telebot.TeleBot(token)
 
 @bot.message_handler(commands=['start'])
