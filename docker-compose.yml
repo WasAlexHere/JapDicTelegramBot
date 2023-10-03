@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+
+  japdictelegrambot:
+      build:
+        context: .
+        dockerfile: dockerfile
+      command: python3 JapDicTelegramBot.py
