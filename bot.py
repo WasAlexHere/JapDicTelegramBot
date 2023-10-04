@@ -1,11 +1,11 @@
 import requests
-import telebot as t
+from telebot import TeleBot
 from bs4 import BeautifulSoup
 from telegram_bot_pagination import InlineKeyboardPaginator
 
 from profile import KEY
 
-bot = t.TeleBot(KEY)
+bot = TeleBot(KEY)
 words = []
 
 
