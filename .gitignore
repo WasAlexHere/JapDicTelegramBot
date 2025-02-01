@@ -1,5 +1,5 @@
-/profile.py
 venv/
 .venv
 .idea
 idea/
+.env

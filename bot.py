@@ -2,10 +2,9 @@ import requests
 from telebot import TeleBot
 from bs4 import BeautifulSoup
 from telegram_bot_pagination import InlineKeyboardPaginator
+from os import getenv
 
-from profile import KEY
-
-bot = TeleBot(KEY)
+bot = TeleBot(getenv("BOT_API_KEY"))
 words = []
 
 

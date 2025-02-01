@@ -7,3 +7,6 @@ services:
         context: .
         dockerfile: dockerfile
       command: python3 bot.py
+      env_file:
+        - .env
+      restart: unless-stopped
